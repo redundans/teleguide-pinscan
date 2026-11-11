@@ -1,0 +1,23 @@
+{
+    "keyboard_name": "Teleguide pinscan",
+    "manufacturer": "handwired",
+    "maintainer": "redundans",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x7E1F",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": false,
+        "extrakey": false,
+        "mousekey": false
+    },
+    "matrix_size": {"rows": 1, "cols": 1},
+    "layouts": {
+        "LAYOUT": {
+            "layout": [{"matrix": [0, 0], "x": 0, "y": 0}]
+        }
+    }
+}
